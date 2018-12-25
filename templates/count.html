@@ -1,0 +1,13 @@
+<a href="{% url 'home'%}">home</a>
+<a href="{% url 'about'%}">About </a>
+<h1>counted</h1>
+
+<br>
+<h2>web site name is  {{web}}</h2>
+
+<h5>and total word is {{total_word}}</h5>
+
+<h2>Now Counter here  word_counter </h2>
+<h5>{% for key,value in word_counter.items %}</h5>
+    {{key}} = {{value}}
+<h5> {% endfor %}</h5>

@@ -1,0 +1,13 @@
+<h1>word counter web site </h1>
+<br>
+{{name}}
+
+
+<br>
+<h2>This is counter part here </h2>
+
+<form action="{% url 'count' %}">
+    <textarea name="fulltextarea" col="40" rows="10"></textarea>
+    <input type="submit" value="count">
+
+</form>
